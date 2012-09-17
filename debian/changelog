@@ -1,3 +1,9 @@
+m2ee-tools (0.4.0-2) unstable; urgency=low
+
+  * D'oh... fix private module patch and import order in m2ee.py
+
+ -- Hans van Kranenburg <hans.van.kranenburg@mendix.com>  Mon, 17 Sep 2012 23:46:11 +0200
+
 m2ee-tools (0.4.0-1) unstable; urgency=low
 
   * upstream changes in 0.4.0:
