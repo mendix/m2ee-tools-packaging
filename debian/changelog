@@ -1,3 +1,10 @@
+m2ee-tools (0.4.1-1) unstable; urgency=low
+
+  * Fix bug introduced in 0.4.0 that prevents backwards-compatible loading of
+    MicroflowConstants from the custom section in yaml config
+
+ -- Hans van Kranenburg <hans.van.kranenburg@mendix.com>  Tue, 18 Sep 2012 23:24:25 +0200
+
 m2ee-tools (0.4.0-2) unstable; urgency=low
 
   * D'oh... fix private module patch and import order in m2ee.py
