@@ -12,7 +12,7 @@ Architecture: all
 Depends: ${python:Depends}, ${misc:Depends}, unzip, python-yaml, python-simplejson, python-httplib2
 Recommends: sqlite3
 Suggests: postgresql-client
-Description: Mendix 2.5 deployment tools
+Description: Mendix Runtime deployment tools
  The m2ee tools provide an interactive way to manage Mendix Business Server
  processes. Using the scripts, a Mendix application can be started, stopped
  and monitored.
