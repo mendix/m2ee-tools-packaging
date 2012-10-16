@@ -4,23 +4,23 @@
 Summary:       Mendix Deployment Tools
 Name:          m2ee-tools
 Version:       0.4.2
-Release:       0.el6
+Release:       1.el6
 Packager:      Hans van Kranenburg \<hans.van.kranenburg@mendix.com\>
 License:       BSD
 Group:         Misc
 URL:           http://www.mendix.com
 Source0:       %{name}-%{version}.tar.gz
 BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-root
-BuildRequires: python
+BuildRequires: python >= 2.5
 BuildArch:     noarch
 
 Patch0: %{name}-private_module.patch
 
+Requires: python >= 2.5
 Requires: PyYAML
 Requires: python-httplib2
 Requires: python-simplejson
 Requires: unzip
-Requires: sqlite >= 3
 
 %description
 The m2ee tools provide an interactive way to manage Mendix Business Server
