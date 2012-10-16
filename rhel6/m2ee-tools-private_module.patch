@@ -1,0 +1,22 @@
+insert private module location into the python search path
+Index: m2ee-tools-0.4.2/src/m2ee.py
+===================================================================
+--- m2ee-tools-0.4.2.orig/src/m2ee.py	2012-10-15 15:18:11.000000000 +0200
++++ m2ee-tools-0.4.2/src/m2ee.py	2012-10-15 15:34:14.682721873 +0200
+@@ -3,11 +3,14 @@
+ import cmd
+ import subprocess
+ import atexit
++import os, pwd, sys, getpass, signal
++import string, pprint, yaml
++
++sys.path.insert(1, '/usr/share/m2ee-tools')
++
+ from m2ee import pgutil, M2EE, M2EEProfiler, mdautil
+ from m2ee.log import logger
+ from m2ee.config import find_yaml_files
+-import os, pwd, sys, getpass, signal
+-import string, pprint, yaml
+ 
+ class CLI(cmd.Cmd):
+ 
