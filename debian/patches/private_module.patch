@@ -1,21 +1,13 @@
-Index: m2ee-tools-0.4.0/src/m2ee.py
+Index: m2ee-tools_0.4.4/src/m2ee.py
 ===================================================================
---- m2ee-tools-0.4.0.orig/src/m2ee.py	2012-09-11 13:32:09.512642033 +0200
-+++ m2ee-tools-0.4.0/src/m2ee.py	2012-09-17 23:45:42.538288597 +0200
-@@ -3,11 +3,14 @@
- import cmd
- import subprocess
- import atexit
-+import os, pwd, sys, getpass, signal
-+import string, pprint, yaml
-+
+--- m2ee-tools_0.4.4.orig/src/m2ee.py	2012-12-12 13:25:18.000000000 +0100
++++ m2ee-tools_0.4.4/src/m2ee.py	2012-12-12 23:07:05.577933135 +0100
+@@ -13,6 +13,8 @@
+ import pprint
+ import yaml
+ 
 +sys.path.insert(1, '/usr/share/m2ee-tools')
 +
  from m2ee import pgutil, M2EE, M2EEProfiler, mdautil
  from m2ee.log import logger
  from m2ee.config import find_yaml_files
--import os, pwd, sys, getpass, signal
--import string, pprint, yaml
- 
- class CLI(cmd.Cmd):
- 
