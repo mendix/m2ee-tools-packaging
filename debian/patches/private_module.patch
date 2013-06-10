@@ -1,13 +1,11 @@
-Index: m2ee-tools_0.4.4/src/m2ee.py
-===================================================================
---- m2ee-tools_0.4.4.orig/src/m2ee.py	2012-12-12 13:25:18.000000000 +0100
-+++ m2ee-tools_0.4.4/src/m2ee.py	2012-12-12 23:07:05.577933135 +0100
-@@ -13,6 +13,8 @@
- import pprint
+--- a/src/m2ee.py
++++ b/src/m2ee.py
+@@ -20,6 +20,8 @@ import pprint
  import yaml
+ import datetime
  
 +sys.path.insert(1, '/usr/share/m2ee-tools')
 +
- from m2ee import pgutil, M2EE, M2EEProfiler, mdautil
- from m2ee.log import logger
- from m2ee.config import find_yaml_files
+ from m2ee import pgutil, M2EE, M2EEProfiler, logger, client_errno
+ import m2ee
+ 
