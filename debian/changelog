@@ -1,3 +1,9 @@
+m2ee-tools (0.5.1-1) unstable; urgency=low
+
+  * Fix dictionary lookup on NoneType in jetty options
+
+ -- Hans van Kranenburg <hans.van.kranenburg@mendix.com>  Tue, 11 Jun 2013 18:47:58 +0200
+
 m2ee-tools (0.5-1) unstable; urgency=low
 
   * Now API compatible with 2.5.0 <= Mendix <= 5.0.0-beta1
