@@ -1,3 +1,11 @@
+m2ee-tools (0.5.2-1) unstable; urgency=low
+
+  * Fix crash when displaying license that does not explicitely contain the
+    field SeparateAnonymousUsers
+  * Fix crash when activating license
+
+ -- Hans van Kranenburg <hans.van.kranenburg@mendix.com>  Mon, 17 Jun 2013 20:12:08 +0200
+
 m2ee-tools (0.5.1-1) unstable; urgency=low
 
   * Fix dictionary lookup on NoneType in jetty options
