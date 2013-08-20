@@ -1,3 +1,11 @@
+m2ee-tools (0.5.3-1) unstable; urgency=low
+
+  * Drop support for Mendix 5 versions < 5.0.0-beta7
+  * Increase JVM MaxPermSize to 128M in example config
+  * Increase JVM initial/max mem in example config
+
+ -- Pim van den Berg <pim.van.den.berg@mendix.com>  Tue, 20 Aug 2013 17:06:12 +0200
+
 m2ee-tools (0.5.2-1) unstable; urgency=low
 
   * Fix crash when displaying license that does not explicitely contain the
