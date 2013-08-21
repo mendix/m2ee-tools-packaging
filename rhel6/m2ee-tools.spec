@@ -9,7 +9,7 @@ Packager:      Hans van Kranenburg \<hans.van.kranenburg@mendix.com\>
 License:       BSD
 Group:         Misc
 URL:           http://www.mendix.com
-Source0:       %{name}-%{version}.tar.gz
+Source0:       %{name}-%{version}.tar.xz
 BuildRoot:     %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: python >= 2.5
 BuildArch:     noarch
