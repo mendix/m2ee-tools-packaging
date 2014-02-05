@@ -3,7 +3,7 @@
 
 Summary:       Mendix Deployment Tools
 Name:          m2ee-tools
-Version:       0.5.7
+Version:       0.5.8
 Release:       1.el6
 Packager:      Hans van Kranenburg \<hans.van.kranenburg@mendix.com\>
 License:       BSD
