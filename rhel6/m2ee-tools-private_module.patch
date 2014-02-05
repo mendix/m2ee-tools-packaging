@@ -1,9 +1,9 @@
 insert private module location into the python search path
 --- a/src/m2ee.py
 +++ b/src/m2ee.py
-@@ -20,6 +20,8 @@ import pprint
+@@ -21,6 +21,8 @@ import subprocess
+ import sys
  import yaml
- import datetime
  
 +sys.path.insert(1, '/usr/share/m2ee-tools')
 +
