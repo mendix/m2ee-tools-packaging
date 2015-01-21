@@ -52,7 +52,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root,-)
 %doc NEWS CHANGES README.md LICENSE examples
-/usr/bin
+/usr/bin/m2ee
 /usr/share/%{name}
 
 
