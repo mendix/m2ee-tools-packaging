@@ -33,7 +33,7 @@ also provides functionality to dump and restore databases, if the
 postgresql-client package is installed.
 
 %prep
- 
+
 %setup
 %patch0 -p1
 
@@ -54,5 +54,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc NEWS CHANGES README.md LICENSE examples
 /usr/bin/m2ee
 /usr/share/%{name}
-
-
